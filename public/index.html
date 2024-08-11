@@ -4,31 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>Stats Card</title>
   </head>
   <body class="bg-[#0a0b1c]">
-    <div class="h-[100vh] w-full flex justify-center items-center">
+    <div class="h-[100vh] w-full flex justify-center items-center p-6 md:p-0">
       <div
-        class="bg-[#1c1739] h-[40%] flex flex-col md:flex-row rounded-lg w-auto md:w-[60%]"
+        class="bg-[#1c1739] h-auto md:h-[40%] flex flex-col md:flex-row rounded-lg w-auto max-w-4xl"
       >
         <div
-          class="order-2 md:order-1 w-[50%] p-10 h-[100%] flex flex-col gap-6"
+          class="order-2 md:order-1 w-[100%] md:w-[50%] p-16 md:p-10 h-[100%] flex flex-col gap-6"
         >
           <div
-            class="w-[100%] text-white font-inter font-bold text-3xl tracking-wide"
+            class="w-[100%] text-white font-inter font-bold text-4xl md:text-3xl tracking-wide"
           >
             Get <span class="text-[#a857e1]">insights</span> that help<br />your
             business grow.
           </div>
-          <div class="w-[100%] font-inter text-[#7d7a94] font-light text-sm">
+          <div
+            class="w-[100%] font-inter text-[#7d7a94] font-light text-xl md:text-sm"
+          >
             Discover the benefits of data analytics and make <br />better
             decisions regarding revenue, customer <br />experience and overall
             efficiency.
           </div>
 
-          <div class="w-[100%] flex gap-2 mt-8">
+          <div
+            class="w-[100%] border border-red-500 flex flex-col items-center md:flex-row gap-4 md:gap-2 mt-2 md:mt-8"
+          >
             <div class="w-[50%] flex flex-col gap-2">
-              <div class="text-[white] text-[1.5rem] font-inter font-bold">
+              <div
+                class="text-[white] text-3xl md:text-[1.5rem] font-inter font-bold"
+              >
                 10k+
               </div>
               <div class="text-[#b9b6f5] text-[0.8rem] font-inter">
@@ -36,7 +42,9 @@
               </div>
             </div>
             <div class="w-[50%] flex flex-col gap-2">
-              <div class="text-[white] text-[1.5rem] font-inter font-bold">
+              <div
+                class="text-[white] text-3xl md:text-[1.5rem] font-inter font-bold"
+              >
                 314
               </div>
               <div class="text-[#b9b6f5] text-[0.8rem] font-inter">
@@ -44,7 +52,9 @@
               </div>
             </div>
             <div class="w-[50%] flex flex-col gap-2">
-              <div class="text-[white] text-[1.5rem] font-inter font-bold">
+              <div
+                class="text-[white] text-3xl md:text-[1.5rem] font-inter font-bold"
+              >
                 12M+
               </div>
               <div class="text-[#b9b6f5] text-[0.8rem] font-inter">QUERIES</div>
@@ -53,7 +63,7 @@
         </div>
 
         <div
-          class="order-1 md:order-2 w-[50%] h-[100%] relative rounded-lg overflow-hidden"
+          class="order-1 md:order-2 w-[100%] md:w-[50%] h-[100%] relative rounded-lg overflow-hidden"
         >
           <img
             src="images/image1.jpg"
